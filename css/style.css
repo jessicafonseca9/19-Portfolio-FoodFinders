@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto:400,500,700&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.topNav{
+	font-family: 'Roboto', sans-serif;
+}
+.M{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.mt-9{
+	margin-top: 9rem;
+}
+
+/*header*/
+.navbar-nav .nav-item .nav-link{
+	color: #181818 !important;
+	font-weight: 500;
+}
+
+/*hero*/
+.hero{
+	background: url('../images/hero-back.jpg')no-repeat center center;
+	background-size: cover;
+}
+.hero .box{
+	background: #E39885;
+	margin-bottom: -9rem;
+}
+
+/*The Problem*/
+.TP .box{
+	border: 3px solid #7CA89F;
+}
+
+/*User Research*/
+.UR .ttl{
+	color: #7CA89F !important;
+}
+.UR .hd{
+	border-bottom: 5px solid #F38686;
+}
+.UR .rd{
+	color: #F38686 !important;
+}
+
+/*Redesign Process*/
+@media(min-width: 768px){
+	.RP .box{
+		background: url('../images/img-8.jpg')no-repeat center center;
+		background-size: cover;
+	}
+	.RP .box .bx{
+		min-height: 500px;
+	}
+}
+.RP .box .bx{
+	background: #7CA89F;
+}
+
+
+footer a.goUp{
+	position: fixed !important;
+	right: 20px;
+	bottom: 20px;
+}
